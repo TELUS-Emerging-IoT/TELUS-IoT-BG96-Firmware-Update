@@ -20,10 +20,24 @@ You will need windows machine to update the firmware.
 
 3. Unzip file **BG96MAR02A07M1G_01.011.01.011.zip**
 
-4. Connect the USB cable your computer and BG96 Board.
+4. Connect the USB cable your computer and Shield with BG96 module.
 
 5. Open **Windows Device Manager** and expand the **Ports (COM & LPT)** section
 
 ...![alt_text](images/device_manager_ports.png)
 
- 
+6. Unzip and launch **QFlash_V4.8.exe** application
+
+7. Set **Baud** rate to **460800**
+
+8. Set **COM** port to port number of **Quectel USB DM Port (xx)**
+
+![alt_text](images/qflash_v4.8.png)
+
+9. Click **Load FW Files** and select acdb.mbn file in the **BG96MAR02A07M1G\UPDATE** folder, click **Open**
+
+10. Click **Start** to begin update
+
+11. **PASS, FW upgrade success** will display in the status bar of QFlash application. Uodate duration would be around 2 minutes.
+
+12. Unplug the shield and you're done.
